@@ -15,14 +15,13 @@ public class Bat extends Mammal
 		@Override
 		public String eats()
 			{
-				return "I eat ";
+				return "I eat "+food;
 			}
 	
 		@Override
 		public String makesNoise()
 			{
-				// TODO Auto-generated method stub
-				return null;
+				return "chirp";
 			}
 
 	}

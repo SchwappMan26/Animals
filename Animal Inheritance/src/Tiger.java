@@ -15,7 +15,7 @@ public class Tiger extends Mammal
 		@Override
 		public String eats()
 			{
-				return "Yummy, "+food+" are my favorite";
+				return food+" are my favorite";
 			}
 	
 		@Override

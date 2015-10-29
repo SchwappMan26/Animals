@@ -9,19 +9,19 @@ public class Eagle extends Bird
 		@Override
 		public String bearsYoung()
 			{
-				return "The "+name+" lays eggs";
+				return "I lays eggs";
 			}
 	
 		@Override
 		public String eats()
 			{
-				return "The "+name+" eats "+food;
+				return "I eat "+food;
 			}
 	
 		@Override
 		public String makesNoise()
 			{
-				return "The "+name+" makes an Eagle Cry";
+				return "Eagle Cry";
 			}
 
 	}
